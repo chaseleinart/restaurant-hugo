@@ -6,7 +6,8 @@
   "arrangement": [],
   "public": "static",
   "configs": [
-    "config/_default"
+    "config/_default",
+    "data"
   ],
   "custom-commit": false
 }
