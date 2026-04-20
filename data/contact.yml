@@ -8,11 +8,3 @@ form_action: "#" # contact form works with formspree.io
 # Business hours (displayed in Contact section)
 hours_enable: true
 hours_heading: "Below are our hours of operation:"
-
-hours_monday: "Closed"
-hours_tuesday: "Closed"
-hours_wednesday: "9:00 AM - 3:00 PM"
-hours_thursday: "Closed"
-hours_friday: "12:00 PM - 6:00 PM"
-hours_saturday: "9:00 AM - 3:00 PM"
-hours_sunday: "Closed"

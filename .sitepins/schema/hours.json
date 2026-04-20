@@ -1,0 +1,15 @@
+{
+  "file": "content/hours/monday.md",
+  "name": "hours",
+  "fileType": "md",
+  "fmType": "yaml",
+  "template": [
+    {
+      "name": "hours",
+      "label": "Opening Hours",
+      "type": "text",
+      "value": "",
+      "defaultValue": "Closed"
+    }
+  ]
+}
