@@ -1,6 +1,7 @@
 {
   "media": "static/images",
   "content": "content",
+  "data": "data",
   "code": "themes/restaurant-hugo/layouts",
   "arrangement": [],
   "public": "static",
