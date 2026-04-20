@@ -1,0 +1,45 @@
+{{ $contact := site.Data.contact }}
+{{ if not $contact }}
+  {{ $contact = site.Data.homepage.contact }}
+{{ end }}
+
+{{ if and $contact $contact.enable }}
+{{ with $contact }}
+<section id="contact-us">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="block">
+					<h1 class=" heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">{{ .title | markdownify }}</h1>
+					<h3 class="title wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">{{ .subtitle | markdownify }}</h3>
+
+					{{ if .hours_enable }}
+						<p class="wow fadeInDown" data-wow-duration="500ms" data-wow-delay="400ms">{{ .hours_heading | markdownify }}</p>
+						<div class="table-responsive wow fadeInDown" data-wow-duration="500ms" data-wow-delay="500ms">
+							<table class="table">
+								<thead>
+									<tr>
+										<th>Day</th>
+										<th>Opening Hours</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr><td>Monday</td><td>{{ default "Closed" .hours_monday }}</td></tr>
+									<tr><td>Tuesday</td><td>{{ default "Closed" .hours_tuesday }}</td></tr>
+									<tr><td>Wednesday</td><td>{{ default "Closed" .hours_wednesday }}</td></tr>
+									<tr><td>Thursday</td><td>{{ default "Closed" .hours_thursday }}</td></tr>
+									<tr><td>Friday</td><td>{{ default "Closed" .hours_friday }}</td></tr>
+									<tr><td>Saturday</td><td>{{ default "Closed" .hours_saturday }}</td></tr>
+									<tr><td>Sunday</td><td>{{ default "Closed" .hours_sunday }}</td></tr>
+								</tbody>
+							</table>
+						</div>
+					{{ end }}
+
+				</div>
+			</div><!-- .col-md-12 close -->
+		</div><!-- .row close -->
+	</div><!-- .container close -->
+</section><!-- #contact-us close -->
+{{end}}
+{{end}}

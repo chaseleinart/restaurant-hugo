@@ -1,0 +1,98 @@
+{
+  "file": "data/contact.yml",
+  "name": "contact",
+  "fileType": "yml",
+  "template": [
+    {
+      "name": "enable",
+      "label": "Enable Contact Section (true/false)",
+      "type": "text",
+      "value": "",
+      "defaultValue": "true"
+    },
+    {
+      "name": "title",
+      "label": "Contact Title",
+      "type": "text",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "subtitle",
+      "label": "Contact Subtitle",
+      "type": "text",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "form_action",
+      "label": "Contact Form Action URL",
+      "type": "text",
+      "value": "",
+      "defaultValue": "#"
+    },
+    {
+      "name": "hours_enable",
+      "label": "Show Business Hours (true/false)",
+      "type": "text",
+      "value": "",
+      "defaultValue": "true"
+    },
+    {
+      "name": "hours_heading",
+      "label": "Hours Heading",
+      "type": "text",
+      "value": "",
+      "defaultValue": "Below are our hours of operation:"
+    },
+    {
+      "name": "hours_monday",
+      "label": "Monday",
+      "type": "text",
+      "value": "",
+      "defaultValue": "Closed"
+    },
+    {
+      "name": "hours_tuesday",
+      "label": "Tuesday",
+      "type": "text",
+      "value": "",
+      "defaultValue": "Closed"
+    },
+    {
+      "name": "hours_wednesday",
+      "label": "Wednesday",
+      "type": "text",
+      "value": "",
+      "defaultValue": "9:00 AM - 3:00 PM"
+    },
+    {
+      "name": "hours_thursday",
+      "label": "Thursday",
+      "type": "text",
+      "value": "",
+      "defaultValue": "Closed"
+    },
+    {
+      "name": "hours_friday",
+      "label": "Friday",
+      "type": "text",
+      "value": "",
+      "defaultValue": "12:00 PM - 6:00 PM"
+    },
+    {
+      "name": "hours_saturday",
+      "label": "Saturday",
+      "type": "text",
+      "value": "",
+      "defaultValue": "9:00 AM - 3:00 PM"
+    },
+    {
+      "name": "hours_sunday",
+      "label": "Sunday",
+      "type": "text",
+      "value": "",
+      "defaultValue": "Closed"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "file": "content/menu/APPETIZER/crab-rangoon.md",
+  "name": "menu",
+  "fileType": "md",
+  "fmType": "yaml",
+  "template": [
+    {
+      "name": "title",
+      "label": "Item Name",
+      "type": "text",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "price",
+      "label": "Price",
+      "type": "text",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "textarea",
+      "value": "",
+      "defaultValue": ""
+    }
+  ]
+}
